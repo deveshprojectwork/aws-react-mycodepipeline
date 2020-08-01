@@ -15,10 +15,9 @@ export class Header extends Component {
         //     bannerCSS = null;
         // }
         return (
-            <div className={"banner inner-banner"} id="home">
+            <div class="banner inner-banner" id="home">
             <div className="container">
                 <header>
-    
                     <div className="header-bottom-w3layouts">
                         <div className="main-w3ls-logo">
                             <h1><a href="index.html"><span className="fa fa-check-square-o" aria-hidden="true"></span>Institute</a></h1>
