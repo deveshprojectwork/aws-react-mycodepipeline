@@ -46,7 +46,7 @@ export class Header extends Component {
         
         return (
             <div className={this.state.bannerName} id="home">
-           {/* //</div>  <div className="banner" id="home" > */}
+           {/* //</div>  <div className="banner" id="home" > ***/}
             <div className="container">
                 <header>
                     <div className="header-bottom-w3layouts">
