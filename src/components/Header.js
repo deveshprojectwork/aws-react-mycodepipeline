@@ -50,8 +50,8 @@ export class Header extends Component {
             <div className="container">
                 <header>
                     <div className="header-bottom-w3layouts">
-                        <div className="main-w3ls-logo">
-                            <h1><a href="/"><span className="fa fa-check-square-o" aria-hidden="true"></span>Institute</a></h1>
+                        <div className="main-w3ls-logo" >
+                            <h1><a href="/"><span className="fa fa-check-square-o" aria-hidden="true"></span>IOT Study</a></h1>
                         </div>
                         <nav className="navbar navbar-default">
                             <div className="navbar-header">

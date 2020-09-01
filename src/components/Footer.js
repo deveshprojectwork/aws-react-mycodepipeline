@@ -16,7 +16,7 @@ export class Footer extends Component {
             <div className="footer-agileits-w3layouts">
           <div className="container">
             <div className="btm-logo-w3ls">
-              <h2><a href="index.html"><span className="fa fa-check-square-o" aria-hidden="true"></span>Institute</a></h2>
+              <h2><a href="index.html"><span className="fa fa-check-square-o" aria-hidden="true"></span>Institute of Advance Study</a></h2>
             </div>
             <div className="subscribe-w3ls">
               <h6>Let us inform you about everything important directly.</h6>
@@ -43,7 +43,7 @@ export class Footer extends Component {
         </div>
         <div className="copyright-w3layouts">
           <div className="container">
-            <p>&copy; 2020 Institute . All Rights Reserved | Design by <a href="institutes"> Institutes </a></p>
+            <p>&copy; 2020 Institute . All Rights Reserved | Design by <a href="institutes">IOT Study</a></p>
           </div>
         </div>
         <a href="#home" className="scroll" id="toTop" style={stylesDisplay}> 
