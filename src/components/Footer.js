@@ -43,10 +43,10 @@ export class Footer extends Component {
         </div>
         <div className="copyright-w3layouts">
           <div className="container">
-            <p>&copy; 2018 Institute . All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts </a></p>
+            <p>&copy; 2020 Institute . All Rights Reserved | Design by <a href="institutes"> Institutes </a></p>
           </div>
         </div>
-        <a href="#home" class="scroll" id="toTop" style={stylesDisplay}> 
+        <a href="#home" className="scroll" id="toTop" style={stylesDisplay}> 
         <span id="toTopHover" style={stylesOpacity}> </span></a>
   
       </footer>

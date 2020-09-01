@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import Header from "./Header"
 
 export class Institutes extends Component {
-    constructor(){
-    super();
-    }
+    // constructor(){
+    // super();
+    // }
     state = {
         institutes:[
         {instutuName: "Institute", institutesInfo: "We offer great variety of individual and group programs. Our clients and our experience proves that the following courses can literally change your life!",
@@ -37,6 +38,7 @@ export class Institutes extends Component {
         console.log(localInstitute)
         return (
             <div>
+                <Header bannerCSS="banner inner-banner" />
                <div className="gallery">
                     <div className="container">
                         <h5 className="main-w3l-title">Our Institutes</h5>

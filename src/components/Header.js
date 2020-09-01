@@ -2,10 +2,20 @@ import React, { Component } from 'react'
 import {Link} from "react-router-dom"
 
 export class Header extends Component {
-    state = this.props.bannerCSS;
+    // state = this.props.bannerCSS;
 
     render() {
-        // console.log(this.props.bannerCSS);
+        // banner inner-banner
+        console.log("INNERBANNER2"+this.props.bannerCSS);
+        // console.log(window.location.pathname)
+        // if ("/about")
+        // {
+        //     alert("about page")
+        // }
+        // else
+        // {
+        //     alert("not an home page")
+        // }
         // let {bannerCSS} = this.props.bannerCSS
         // if (bannerCSS!= null || bannerCSS!="")
         // {
@@ -15,12 +25,13 @@ export class Header extends Component {
         //     bannerCSS = null;
         // }
         return (
-            <div class="banner inner-banner" id="home">
+            // <div className="banner inner-banner" id="home">
+            <div className="banner" id="home" >
             <div className="container">
                 <header>
                     <div className="header-bottom-w3layouts">
                         <div className="main-w3ls-logo">
-                            <h1><a href="index.html"><span className="fa fa-check-square-o" aria-hidden="true"></span>Institute</a></h1>
+                            <h1><a href="/"><span className="fa fa-check-square-o" aria-hidden="true"></span>Institute</a></h1>
                         </div>
                         <nav className="navbar navbar-default">
                             <div className="navbar-header">
@@ -33,21 +44,27 @@ export class Header extends Component {
                       </button>
     
                             </div>
-    
+
                             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul className="nav navbar-nav">
-                                    <li><Link  className="active" to="/">Home</Link ></li>
-                                    <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/courses">Courses</Link></li>
-                                    <li><Link to="/institutes">Institutes</Link></li>
-                                    <li className="dropdown">
+                                    {/* <li><Link  className="active"  to="/">Home</Link ></li>
+                                    <li><Link to="/about" >About</Link></li>
+                                    <li><Link to="/courses" >Courses</Link></li>
+                                    <li><Link to="/institutes" >Institutes</Link></li> */}
+                                    {/* onClick={() => window.location.reload()} */}
+                                    {/* <li className="dropdown">
                                         <a href="#" className="dropdown-toggle" data-toggle="dropdown">Pages <b className="caret"></b></a>
                                         <ul className="dropdown-menu">
                                             <li><a href="icons.html">Web Icons</a></li>
                                             <li><a href="typography.html">Typography</a></li>
                                         </ul>
-                                    </li>
-                                    <li><Link to="contact">Contact</Link></li>
+                                    </li> */}
+                                    {/* <li><Link to="contact" >Contact</Link></li>  */}
+                                    <li><a href="/" className="active" > Home </a></li>
+                                     <li><a href="/courses"> Courses </a></li>
+                                     <li><a href="/institutes"> Institutes </a></li>
+                                     <li><a href="/about"> About </a></li>
+                                     <li><a href="/contact"> Contact </a></li>
                                 </ul>
     
                             </div>
@@ -77,7 +94,7 @@ export class Header extends Component {
                                 <div className="slider-info">
                                     <h3>It is never too late to Study</h3>
                                     <p>Education Needs Complete Solution</p>
-                                    <a href="about.html">About Us</a>
+                                    <a href="about">About Us</a>
                                 </div>
                             </li>
                             <li>
@@ -85,7 +102,8 @@ export class Header extends Component {
                                 <div className="slider-info">
                                     <h3>The best learning institute</h3>
                                     <p>Successful career starts with good training</p>
-                                    <a href="about.html">About Us</a>
+                                    <a href="about
+                                    ">About Us</a>
                                 </div>
                             </li>
     

@@ -31,20 +31,21 @@
       <!--web-fonts-->
       <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-
-      <link rel="stylesheet" href="css/easy-responsive-tabs.css" type="text/css" media="all" /> <!-- Style-CSS -->
-      <link href="//fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
-      <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+      <link rel="stylesheet" href="css/easy-responsive-tabs.css" type="text/css" media="all" /> 
+      <!-- <link href="//fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet"> -->
+      <!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"> -->
 
       <title>React App</title>
   </head>
   <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
         <div id="root"></div>
         
         
         
-        <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+        <a href="#home" className="scroll" id="toTop" style="display: block;"> 
+          <span id="toTopHover" style="opacity: 1;"> </span>
+        </a>
 
         <script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
         <!-- stats -->
@@ -78,6 +79,7 @@
               pager: true,
               nav: false,
               speed: 500,
+              load:true,
               namespace: "callbacks",
               before: function () {
                 $('.events').append("<li>before event fired.</li>");
@@ -94,39 +96,7 @@
         <script src="js/main.js"></script>
         <!--//search-bar-->
       
-        <!-- start-smoth-scrolling -->
-        <script type="text/javascript" src="js/move-top.js"></script>
-        <script type="text/javascript" src="js/easing.js"></script>
-        <script type="text/javascript">
-          jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-              event.preventDefault();
-              $('html,body').animate({
-                scrollTop: $(this.hash).offset().top
-              }, 1000);
-            });
-          });
-        </script>
-        <!-- start-smoth-scrolling -->
-        <!-- here stars scrolling icon -->
-        <script type="text/javascript">
-          $(document).ready(function () {
-            /*
-              var defaults = {
-              containerID: 'toTop', // fading element id
-              containerHoverID: 'toTopHover', // fading element hover id
-              scrollSpeed: 1200,
-              easingType: 'linear'
-              };
-            */
-      
-            $().UItoTop({
-              easingType: 'easeOutQuart'
-            });
-      
-          });
-        </script>
-        <!-- //here ends scrolling icon -->
+
         <!-- Js for bootstrap working-->
         <script src="js/bootstrap.js"></script>
         <!-- //Js for bootstrap working -->
@@ -160,47 +130,93 @@
           });
         });
       </script>
-      <!--// script for responsive tabs -->
-      <!-- start-smoth-scrolling -->
-      <script type="text/javascript" src="js/move-top.js"></script>
-      <script type="text/javascript" src="js/easing.js"></script>
-      <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-          $(".scroll").click(function (event) {
-            event.preventDefault();
-            $('html,body').animate({
-              scrollTop: $(this.hash).offset().top
-            }, 1000);
+
+
+        <!-- start-smoth-scrolling -->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+          jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+              event.preventDefault();
+              $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+              }, 1000);
+            });
           });
-        });
-      </script>
-      <!-- start-smoth-scrolling -->
-      <!-- here stars scrolling icon -->
-      <script type="text/javascript">
-        $(document).ready(function () {
-          /*
-            var defaults = {
-            containerID: 'toTop', // fading element id
-            containerHoverID: 'toTopHover', // fading element hover id
-            scrollSpeed: 1200,
-            easingType: 'linear' 
-            };
-          */
-
-          $().UItoTop({
-            easingType: 'easeOutQuart'
+        </script>
+        <!-- start-smoth-scrolling -->
+        <!-- here stars scrolling icon -->
+        <script type="text/javascript">
+          $(document).ready(function () {
+              var defaults = {
+              containerID: 'toTop', // fading element id
+              containerHoverID: 'toTopHover', // fading element hover id
+              scrollSpeed: 1200,
+              easingType: 'linear'
+              };
+      
+            $().UItoTop({
+              easingType: 'easeOutQuart'
+            });
+      
           });
+        </script>
+        <!-- //here ends scrolling icon -->
+      	<!-- //Footer -->
 
-        });
-      </script>
-      <!-- //here ends scrolling icon -->
-      <!--js for bootstrap working-->
-      <script src="js/bootstrap.js"></script>
-      <!-- //for bootstrap working -->
-
+	<!-- <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+	<!-- //smooth scrolling -->
 
 
+	<!-- <script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter').countUp();
+	</script>
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function (slider) {
+					$('body').removeClass('loading');
+				}
+			});
+		});
+	</script> -->
+	<!-- //flexSlider -->
+	<!-- Responsiveslides -->
+	<script src="js/responsiveslides.min.js"></script>
+	<!-- <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			// Slideshow 4
+			$("#slider3").responsiveSlides({
+				auto: true,
+				pager: true,
+				nav: false,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+			});
 
+		});
+	</script> -->
+	<!-- // Responsiveslides -->
+	<!--search-bar-->
+	<!-- <script src="js/main.js"></script> -->
+	<!--//search-bar-->
+
+
+
+<!-- instrute -->
 
       
   </body>

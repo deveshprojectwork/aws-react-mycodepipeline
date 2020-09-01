@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Header from "./Header"
 
 export class Courses extends Component {
     constructor(){
@@ -26,7 +27,9 @@ export class Courses extends Component {
         console.log(this.state)
         // const {cources_name} = this.state.;
         return (
-            <div class="courses">
+            <div>
+                 <Header bannerCSS="banner inner-banner" />  
+                 <div className="courses">
                 {/* <h1>COURSES name is {this.state.cname}</h1> */}
 
                 {/* <table>
@@ -36,9 +39,9 @@ export class Courses extends Component {
                     )}                    
                 </table> */}
 
-
-                <div class="container">
-                <h5 class="main-w3l-title">Courses</h5>
+               
+                <div className="container">
+                <h5 className="main-w3l-title">Courses</h5>
                 {this.state.courses.map((item) =>
                 <div className="col-md-4 courses-info">
                             <h5>{item.cname}</h5>
@@ -56,6 +59,8 @@ export class Courses extends Component {
 
                
             </div>
+            </div>
+           
         )
     }
 }

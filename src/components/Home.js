@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
-
-export class Main extends Component {
+import Header from "./Header"
+export class Home extends Component {
     render() {
         return (
             <div>
-                       <div className="about-section" id="about">
+          <Header bannerCSS="banner" />
+          {/* <Header  /> */}
+          <div className="about-section" id="about">
           <div className="container">
             <h5 className="main-w3l-title">About Us</h5>
             <div className="about-top">
@@ -80,7 +82,7 @@ export class Main extends Component {
                 <h3 className="subheading-wthree white-clr">Let's Register Now</h3>
                 <span>Get Enrolled & Start better future with us!</span>
                 <ul className="form-buttons">
-                  <li><a href="#" data-toggle="modal" data-target="#myModal3"><i className="fa fa-pencil-square-o" aria-hidden="true"></i> Register</a></li>
+                  <li><a href="#aa" data-toggle="modal" data-target="#myModal3"><i className="fa fa-pencil-square-o" aria-hidden="true"></i> Register</a></li>
                 </ul>
                 <div className="clearfix"></div>
               </div>
@@ -305,4 +307,4 @@ export class Main extends Component {
     }
 }
 
-export default Main
+export default Home
