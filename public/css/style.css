@@ -552,12 +552,12 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	background-size: cover;
-	min-height: 795px;
+	min-height: 900px;
 	position: relative;
 }
 
 .inner-banner {
-	min-height: 240px!important;
+	min-height: 100px!important;
 }
 
 .banner-text {
@@ -663,7 +663,6 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 }
 
 
-/*
 .callbacks_nav {
 	position: absolute;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -692,7 +691,7 @@ nav.shift ul li a.active:after ,nav.shift ul li a:hover:after {
 }
 .callbacks2_nav:active {
 	opacity: 1.0;
-}*/
+}
 
 #slider-pager a {
 	display: inline-block;

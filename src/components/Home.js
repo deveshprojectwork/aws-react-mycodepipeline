@@ -4,7 +4,7 @@ export class Home extends Component {
     render() {
         return (
             <div>
-          <Header bannerCSS="banner" />
+          <Header bannerCSS="banner inner-banner" />
           {/* <Header  /> */}
           <div className="about-section" id="about">
           <div className="container">
