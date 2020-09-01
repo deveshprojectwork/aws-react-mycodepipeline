@@ -136,7 +136,7 @@ export default function NavTabs() {
                                         <p className="paragraph-agileinfo"><span>Email : </span><a href="mailto:info@example.com">info@example.com</a></p>
                                     </div>
                                     <div className="col-md-7 add-right">
-                                        <iframe  title="GoogleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10171.143717162497!2d-73.99510450880028!3d40.72023723426282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590485a57bab%3A0xc30a1a20d5c453f4!2sD%C5%8C%2C+Cookie+Dough+Confections!5e0!3m2!1sen!2sin!4v1512641855744"   width="400" height="300"  ></iframe>
+                                        <iframe  title="GoogleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10171.143717162497!2d-73.99510450880028!3d40.72023723426282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590485a57bab%3A0xc30a1a20d5c453f4!2sD%C5%8C%2C+Cookie+Dough+Confections!5e0!3m2!1sen!2sin!4v1512641855744"  ></iframe>
                                     </div>
                                     <div className="clearfix"></div>
                                 </div>
@@ -149,7 +149,7 @@ export default function NavTabs() {
                                             <p className="paragraph-agileinfo"><span>Email : </span><a href="mailto:info@example.com">info@example.com</a></p>
                                         </div>
                                         <div className="col-md-8 add-right">
-                                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48375.93183616049!2d-73.998345!3d40.729116000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc30a1a20d5c453f4!2sD%C5%8C%2C%20Cookie%20Dough%20Confections!5e0!3m2!1sen!2sin!4v1598983914325!5m2!1sen!2sin"  width="400" height="300" ></iframe>
+                                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48375.93183616049!2d-73.998345!3d40.729116000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc30a1a20d5c453f4!2sD%C5%8C%2C%20Cookie%20Dough%20Confections!5e0!3m2!1sen!2sin!4v1598983914325!5m2!1sen!2sin"  ></iframe>
 
                                             {/* <iframe  title="GoogleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20335.70063503884!2d-73.99748627450514!3d40.741786138002865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258fecf664df5%3A0x33d224a0d5dacca2!2sRockefeller+Center!5e0!3m2!1sen!2sin!4v1512641910229" ></iframe> */}
                                         </div>
