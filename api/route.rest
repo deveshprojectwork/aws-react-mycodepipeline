@@ -1,0 +1,37 @@
+GET http://localhost:8899/
+
+###
+GET http://localhost:8899/getregister
+
+###
+GET http://localhost:8899/5f5518a97830be05288d5ee9
+
+
+###
+POST http://localhost:8899/register  HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Amit",
+    "email": "SSl@gmail.com",
+    "Number":"3434343",
+    "Address":"sample 7ioi",
+    "LCState":"punjab",
+    "Website":"www.abc.com",
+    "classtime":"online",
+    "gender":"male",
+    "trainingOption":"full time"
+}
+
+
+###
+DELETE http://localhost:8899/5f5521d397522d1e50bcdbc1
+
+###
+
+PATCH http://localhost:8899/5f5516c11d5bec2cc0a1c49b HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample"
+}

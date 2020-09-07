@@ -7,6 +7,8 @@ import Institutes from "./components/Institutes";
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import DisplayRegisterUser from './components/DisplayRegisterUser';
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
               <Route path="/about"  exact component={About} />
               <Route path="/courses" exact component={Courses} />
               <Route path="/institutes" exact component={Institutes} />
+              <Route path="/desplayregisteruser" exact component={DisplayRegisterUser} />
               <Route path="/contact" exact component={Contact} />
               <Route exact component={NotFound} />
           </Switch>

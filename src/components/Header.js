@@ -25,7 +25,7 @@ export class Header extends Component {
       }
 
       componentWillMount(){
-        console.log(window.location.pathname)
+        // console.log(window.location.pathname)
         if (window.location.pathname ==="/")        {
             this.setState({bannerName:"banner"})
             this.setState({HeaderSliderHide: false})
@@ -42,7 +42,7 @@ export class Header extends Component {
 
     render() {
         let textThatChanges = textArray[this.state.textIdx % textArray.length];
-        console.log(this.state.bannerName)
+        // console.log(this.state.bannerName)
         
         return (
             <div className={this.state.bannerName} id="home">
@@ -68,13 +68,13 @@ export class Header extends Component {
                                     <li><Link to="/about" >About</Link></li>
                                     <li><Link to="/courses" >Courses</Link></li>
                                     <li><Link to="/institutes" >Institutes</Link></li> 
-                                    {/* <li className="dropdown">
-                                        <a href="#" className="dropdown-toggle" data-toggle="dropdown">Pages <b className="caret"></b></a>
+                                    <li className="dropdown">
+                                        <a href="#" className="dropdown-toggle" data-toggle="dropdown">Admin Section <b className="caret"></b></a>
                                         <ul className="dropdown-menu">
-                                            <li><a href="icons.html">Web Icons</a></li>
+                                            <li><Link to="/desplayregisteruser" >Register Details</Link></li>
                                             <li><a href="typography.html">Typography</a></li>
                                         </ul>
-                                    </li> */}
+                                    </li>
                                      <li><Link to="contact" >Contact</Link></li> 
                                      {/* <li><a href="/" className="active" > Home </a></li>
                                      <li><a href="/courses"> Courses </a></li>

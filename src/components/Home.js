@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from "./Header"
+import Register from "./Register"
 export class Home extends Component {
     render() {
         return (
@@ -140,78 +141,13 @@ export class Home extends Component {
         </div>
         <div className="modal fade" id="myModal3" tabindex="-1" role="dialog">
           <div className="modal-dialog">
-            <div className="modal-content">
+            <div className="modal-content">]
               <div className="modal-header">
                 <button type="button" className="close" data-dismiss="modal">&times;</button>
-
-                <div className="signin-form profile">
-                  <h3 className="register-title">Register</h3>
-                  <div className="login-form">
-                    <form action="#" method="post">
-                      <div className="fields-main">
-                        <div className="fields">
-                          <input type="text" name="name" placeholder="Username" required=""/>
-                        </div>
-                        <div className="fields">
-                          <input type="email" name="email" placeholder="Email" required=""/>
-                        </div>
-                      </div>
-                      <div className="fields-main">
-                        <div className="fields">
-                          <input type="text" name="Number" placeholder="Number" required=""/>
-                        </div>
-                        <div className="fields">
-                          <input type="text" name="Address" placeholder="Address" required=""/>
-                        </div>
-                      </div>
-                      <div className="fields-main">
-                        <div className="fields">
-                          <input type="text" name="Last/Current educational status" placeholder="Last/Current educational status" required=""/>
-                        </div>
-                        <div className="fields">
-                          <input type="text" name="Website" placeholder="Website(if any)" required=""/>
-                        </div>
-                      </div>
-                      <div className="fields">
-                        <select id="country" onchange="change_country(this.value)" className="frm-field required sect">
-                          <option value="">Select course</option>
-                          <option value="">Office</option>
-                          <option value="">Web design</option>
-                          <option value="">Web development</option>
-                          <option value="">Net working</option>
-                          <option value="">Linux</option>
-                        </select>
-                      </div>
-                      <div className="fields">
-                        <select id="country1" onchange="change_country(this.value)" className="frm-field required sect">
-                          <option value="">Class time</option>
-                          <option value="">Morning</option>
-                          <option value="">Evening</option>
-                          <option value="">Custom</option>
-                        </select>
-                      </div>
-                      <div className="radio-section">
-                        <h6>Training Option</h6>
-                        <ul className="radio-buttons">
-                          <li>
-                            <input type="radio" id="a-option" name="selector1"/>
-                            <label for="a-option">Full day</label>
-                            <div className="check"></div>
-                          </li>
-                          <li>
-                            <input type="radio" id="b-option" name="selector1"/>
-                            <label for="b-option">Half day</label>
-                            <div className="check">
-                              <div className="inside"></div>
-                            </div>
-                          </li>
-                        </ul>
-                        <div className="clearfix"></div>
-                      </div>
-                      <input type="submit" value="Submit" />
-                    </form>
-                  </div>
-                </div>
+                  {/* adding new form */}
+                  <Register />
+              
+              
               </div>
             </div>
           </div>
