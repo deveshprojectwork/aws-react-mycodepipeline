@@ -3,10 +3,11 @@ const cors  =  require('cors');
 const bodyParser  =  require('body-parser');
 const mongoose  =  require('mongoose');
 const { string } = require('yup');
+require("dotenv").config()
 // const sha1 = require('sha1');
 
 
-mongoose.connect(process.env.URL, { useNewUrlParser: true,useUnifiedTopology: true }, (err) => {
+mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true,useUnifiedTopology: true }, (err) => {
     if (!err)
         console.log('MongoDB connection succeeded.');
     else
